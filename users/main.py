@@ -28,7 +28,7 @@ cookies = {
 }
 
 headers = {
-    "TokenForCreatingCorpUser": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjb3JwQXBpVXNlciIsImV4cCI6MTc2ODAzNTIwM30.rxTbY0tnf-sig5LUmtooZ8p0rHZkcBjHCDasGuHWykjMqsmvyR56PJvYtW-JN078O4t7a-E1PGO7BYYUcHtwmw"
+    "TokenForCreatingCorpUser": "token token token"
     }
 r = requests.get("https://testlink.alfabank.ru/platform/create-user-corp/create-basic-test-data", headers=headers, cookies=cookies)
 
